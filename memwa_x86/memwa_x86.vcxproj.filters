@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="if">
+      <UniqueIdentifier>{0e006c62-9407-4c81-a230-0339cc104b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw">
+      <UniqueIdentifier>{955f54b9-8bf9-4ed2-a279-c34f0b0753eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw\hostif">
+      <UniqueIdentifier>{5b833e60-757e-4134-8c9b-ff86b5215c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw\main">
+      <UniqueIdentifier>{fa4db974-d27e-45ff-8983-abbdc999c3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw\rom">
+      <UniqueIdentifier>{1b9196bf-1a88-4783-b948-4f714da9bd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdl">
+      <UniqueIdentifier>{9f3b46b9-70bf-4817-8e39-96c4d7da35b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resid">
+      <UniqueIdentifier>{99bcbf75-7f14-4005-ac9a-1344cfcc454d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{2412147b-3428-4367-9d06-08d961181ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{8df2888d-0183-4d5a-b368-b31d0885422a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw">
+      <UniqueIdentifier>{47c23aab-e308-4fe0-8195-71f514bd6333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw\snd">
+      <UniqueIdentifier>{aff995c6-f85a-4e1d-b313-43466c32cf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw\video">
+      <UniqueIdentifier>{f6318b0f-0bc4-46a8-94eb-c9a03afaf222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw\keybd">
+      <UniqueIdentifier>{e98391a6-e155-4df3-a9ad-7bb194febdcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="resid\envelope.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\extfilt.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\filter.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\pot.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\version.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\voice.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave6581__ST.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave6581_P_T.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave6581_PS_.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave6581_PST.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave8580__ST.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave8580_P_T.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave8580_PS_.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\wave8580_PST.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="resid\sid.cpp">
+      <Filter>resid</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\hostif\hostif.c">
+      <Filter>hw\hostif</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\rom\romcc.c">
+      <Filter>hw\rom</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\rom\romdd.c">
+      <Filter>hw\rom</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\main\main.cpp">
+      <Filter>hw\main</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\snd\snd.cpp">
+      <Filter>hw\snd</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\video\video.cpp">
+      <Filter>hw\video</Filter>
+    </ClCompile>
+    <ClCompile Include="hw\keybd\keybd.cpp">
+      <Filter>hw\keybd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="if\if.h">
+      <Filter>if</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\hostif\hostif.h">
+      <Filter>hw\hostif</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\main\main.h">
+      <Filter>hw\main</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\rom\romcc.h">
+      <Filter>hw\rom</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\envelope.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\extfilt.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\filter.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\pot.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\siddefs.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\spline.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\voice.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\wave.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="resid\sid.h">
+      <Filter>resid</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\glad.h">
+      <Filter>glad</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl\khrplatform.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\begin_code.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\close_code.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_assert.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_atomic.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_audio.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_bits.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_blendmode.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_clipboard.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_android.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_iphoneos.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_macosx.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_minimal.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_os2.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_pandora.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_psp.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_windows.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_winrt.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_config_wiz.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_copying.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_cpuinfo.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_egl.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_endian.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_error.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_events.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_filesystem.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_gamecontroller.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_gesture.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_haptic.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_hints.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_joystick.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_keyboard.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_keycode.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_loadso.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_log.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_main.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_messagebox.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_mouse.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_mutex.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_name.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengl.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengl_glext.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengles.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengles2.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengles2_gl2.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengles2_gl2ext.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengles2_gl2platform.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_opengles2_khrplatform.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_pixels.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_platform.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_power.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_quit.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_rect.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_render.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_revision.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_rwops.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_scancode.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_sensor.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_shape.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_stdinc.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_surface.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_system.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_syswm.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_assert.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_common.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_compare.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_crc32.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_font.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_fuzzer.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_harness.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_images.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_log.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_md5.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_memory.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_test_random.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_thread.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_timer.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_touch.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_types.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_version.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_video.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl\SDL_vulkan.h">
+      <Filter>sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw\glfw3.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="glfw\glfw3native.h">
+      <Filter>glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\rom\romdd.h">
+      <Filter>hw\rom</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\snd\snd.h">
+      <Filter>hw\snd</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\video\video.h">
+      <Filter>hw\video</Filter>
+    </ClInclude>
+    <ClInclude Include="hw\keybd\keybd.h">
+      <Filter>hw\keybd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resid\wave6581__ST.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave6581_P_T.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave6581_PS_.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave6581_PST.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave8580__ST.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave8580_P_T.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave8580_PS_.dat">
+      <Filter>resid</Filter>
+    </None>
+    <None Include="resid\wave8580_PST.dat">
+      <Filter>resid</Filter>
+    </None>
+  </ItemGroup>
+</Project>
