@@ -30,7 +30,7 @@
 #include "keybd.h"
 
 extern "C"
-{	
+{
 	#include "if.h"
 	#include "romcc.h"
 	#include "romdd.h"
@@ -66,6 +66,11 @@ extern "C" if_emu_cc_t g_if_cc_emu;
 extern "C" if_emu_dd_t g_if_dd_emu;
 
 static GLFWwindow* window;
+
+typedef struct
+{
+	uint16_t start_addr_c64;
+} prg_t;
 
 /* Main function: GLUT runs as a console application starting at main()  */
 int main(int argc, char** argv)
@@ -183,15 +188,29 @@ void main_open_file()
 
 	if (GetOpenFileNameA(&ofn))
 	{
-		printf("You chose the file %s", filename);
+		printf("You chose the file %s\n", filename);
 	}
 
 	fd_p = fopen(filename, "rb");
 	local_errno = errno;
 
-
 	if (fd_p != NULL)
 	{
-		g_if_dd_emu.if_emu_dd_disk_drive.disk_drive_load_fp((uint32_t *)fd_p);
+		if (filename[strlen(filename) - 1] == 'g' && filename[strlen(filename) - 2] == 'r' && filename[strlen(filename) - 3] == 'p')
+		{
+			prg_t prg;
+			uint32_t bytes_read = 0;
+
+			printf("Loading PRG file...\n");
+
+			fread(&prg, 1, 2, fd_p);
+			fread((uint8_t *)(ram_mem_p + prg.start_addr_c64), 1, 0x10000, fd_p);
+			fclose(fd_p);
+		}
+		else if (filename[strlen(filename) - 1] == '4' && filename[strlen(filename) - 2] == '6' && filename[strlen(filename) - 3] == 'd')
+		{
+			printf("Loading D64 file...\n");
+			g_if_dd_emu.if_emu_dd_disk_drive.disk_drive_load_fp((uint32_t *)fd_p);
+		}
 	}
 }
